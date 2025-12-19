@@ -1,23 +1,165 @@
 [
-  { "id": 1, "name": "Wireless Mouse", "price": 25, "category": "Electronics", "rating": 4.5, "quantity": 120 },
-  { "id": 2, "name": "Mechanical Keyboard", "price": 85, "category": "Electronics", "rating": 4.7, "quantity": 75 },
-  { "id": 3, "name": "USB-C Charger", "price": 30, "category": "Accessories", "rating": 4.3, "quantity": 200 },
-  { "id": 4, "name": "Laptop Stand", "price": 40, "category": "Accessories", "rating": 4.6, "quantity": 90 },
-  { "id": 5, "name": "Noise Cancelling Headphones", "price": 150, "category": "Electronics", "rating": 4.8, "quantity": 60 },
-  { "id": 6, "name": "Smart Watch", "price": 180, "category": "Wearables", "rating": 4.4, "quantity": 50 },
-  { "id": 7, "name": "Bluetooth Speaker", "price": 70, "category": "Electronics", "rating": 4.5, "quantity": 110 },
-  { "id": 8, "name": "External Hard Drive 1TB", "price": 95, "category": "Storage", "rating": 4.6, "quantity": 65 },
-  { "id": 9, "name": "Webcam HD", "price": 55, "category": "Electronics", "rating": 4.2, "quantity": 80 },
-  { "id": 10, "name": "Gaming Mouse Pad", "price": 20, "category": "Accessories", "rating": 4.1, "quantity": 150 },
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 25,
+    "category": "Electronics",
+    "rating": 4.5,
+    "quantity": 120
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "price": 85,
+    "category": "Electronics",
+    "rating": 4.7,
+    "quantity": 75
+  },
+  {
+    "id": 3,
+    "name": "USB-C Charger",
+    "price": 30,
+    "category": "Accessories",
+    "rating": 4.3,
+    "quantity": 200
+  },
+  {
+    "id": 4,
+    "name": "Laptop Stand",
+    "price": 40,
+    "category": "Accessories",
+    "rating": 4.6,
+    "quantity": 90
+  },
+  {
+    "id": 5,
+    "name": "Noise Cancelling Headphones",
+    "price": 150,
+    "category": "Electronics",
+    "rating": 4.8,
+    "quantity": 60
+  },
 
-  { "id": 11, "name": "Office Chair", "price": 220, "category": "Furniture", "rating": 4.7, "quantity": 40 },
-  { "id": 12, "name": "Desk Lamp", "price": 35, "category": "Furniture", "rating": 4.3, "quantity": 95 },
-  { "id": 13, "name": "Portable Power Bank", "price": 45, "category": "Accessories", "rating": 4.4, "quantity": 130 },
-  { "id": 14, "name": "Tablet Stand", "price": 28, "category": "Accessories", "rating": 4.2, "quantity": 140 },
-  { "id": 15, "name": "Fitness Tracker", "price": 90, "category": "Wearables", "rating": 4.5, "quantity": 70 },
-  { "id": 16, "name": "Wireless Earbuds", "price": 110, "category": "Electronics", "rating": 4.6, "quantity": 85 },
-  { "id": 17, "name": "Monitor 24-inch", "price": 200, "category": "Electronics", "rating": 4.7, "quantity": 45 },
-  { "id": 18, "name": "Router Dual Band", "price": 95, "category": "Networking", "rating": 4.4, "quantity": 55 },
-  { "id": 19, "name": "Smartphone Tripod", "price": 32, "category": "Accessories", "rating": 4.1, "quantity": 160 },
-  { "id": 20, "name": "Graphic Drawing Tablet", "price": 140, "category": "Electronics", "rating": 4.6, "quantity": 35 }
+  {
+    "id": 6,
+    "name": "Smart Watch",
+    "price": 180,
+    "category": "Wearables",
+    "rating": 4.4,
+    "quantity": 50
+  },
+  {
+    "id": 7,
+    "name": "Bluetooth Speaker",
+    "price": 70,
+    "category": "Electronics",
+    "rating": 4.5,
+    "quantity": 110
+  },
+  {
+    "id": 8,
+    "name": "External Hard Drive 1TB",
+    "price": 95,
+    "category": "Storage",
+    "rating": 4.6,
+    "quantity": 65
+  },
+  {
+    "id": 9,
+    "name": "Webcam HD",
+    "price": 55,
+    "category": "Electronics",
+    "rating": 4.2,
+    "quantity": 80
+  },
+  {
+    "id": 10,
+    "name": "Gaming Mouse Pad",
+    "price": 20,
+    "category": "Accessories",
+    "rating": 4.1,
+    "quantity": 150
+  },
+
+  {
+    "id": 11,
+    "name": "Office Chair",
+    "price": 220,
+    "category": "Furniture",
+    "rating": 4.7,
+    "quantity": 40
+  },
+  {
+    "id": 12,
+    "name": "Desk Lamp",
+    "price": 35,
+    "category": "Furniture",
+    "rating": 4.3,
+    "quantity": 95
+  },
+  {
+    "id": 13,
+    "name": "Portable Power Bank",
+    "price": 45,
+    "category": "Accessories",
+    "rating": 4.4,
+    "quantity": 130
+  },
+  {
+    "id": 14,
+    "name": "Tablet Stand",
+    "price": 28,
+    "category": "Accessories",
+    "rating": 4.2,
+    "quantity": 140
+  },
+  {
+    "id": 15,
+    "name": "Fitness Tracker",
+    "price": 90,
+    "category": "Wearables",
+    "rating": 4.5,
+    "quantity": 70
+  },
+
+  {
+    "id": 16,
+    "name": "Wireless Earbuds",
+    "price": 110,
+    "category": "Electronics",
+    "rating": 4.6,
+    "quantity": 85
+  },
+  {
+    "id": 17,
+    "name": "Monitor 24-inch",
+    "price": 200,
+    "category": "Electronics",
+    "rating": 4.7,
+    "quantity": 45
+  },
+  {
+    "id": 18,
+    "name": "Router Dual Band",
+    "price": 95,
+    "category": "Networking",
+    "rating": 4.4,
+    "quantity": 55
+  },
+  {
+    "id": 19,
+    "name": "Smartphone Tripod",
+    "price": 32,
+    "category": "Accessories",
+    "rating": 4.1,
+    "quantity": 160
+  },
+  {
+    "id": 20,
+    "name": "Graphic Drawing Tablet",
+    "price": 140,
+    "category": "Electronics",
+    "rating": 4.6,
+    "quantity": 35
+  }
 ]
