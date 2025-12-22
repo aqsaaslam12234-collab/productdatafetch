@@ -7,7 +7,7 @@ const ProductDashboard = () => {
   const [products, setProducts] = useState<ProductFormType[]>([]);
   useEffect(() => {
     const fetchData = async () => {
-      const request = await fetch("product.json");
+      const request = await fetch("products.json");
       const data = await request.json();
       setProducts(data);
 
