@@ -1,16 +1,12 @@
-
-import './App.css'
-import ProductDashboard from './components/ProductDashboard'
+import "./App.css";
+import ProductDashboard from "./components/ProductDashboard";
 
 function App() {
- 
-
   return (
     <>
-     <ProductDashboard />
-    
+      <ProductDashboard />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

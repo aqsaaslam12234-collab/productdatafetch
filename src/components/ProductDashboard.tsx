@@ -7,12 +7,12 @@ const ProductDashboard = () => {
   const [products, setProducts] = useState<ProductFormType[]>([]);
   useEffect(() => {
     const fetchData = async () => {
-      const request = await fetch("products.json");
-      const data = await request.json();
+      const response = await fetch("products.json");
+      const data = await response.json();
       setProducts(data);
 
-      fetchData();
     };
+    fetchData();
   }, []);
 
   const addProduct = (newProduct: ProductFormType) => {
