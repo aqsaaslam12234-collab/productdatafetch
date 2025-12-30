@@ -16,7 +16,7 @@ const AddProductForm = ({ onAddProduct }: AddProductFormProps) => {
   };
 
   return (
-    <div className="max-w-2xl max-auto p-2">
+    <div className="max-w-2xl max-auto p-5 ml-60">
       <h1 className="text-2xl font-bold text-center mb-2">Add New Product</h1>
       <form
         onSubmit={handleSubmit(onSubmit)}
